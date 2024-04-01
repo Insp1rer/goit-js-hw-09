@@ -1,0 +1,35 @@
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 24px 156px;
+}
+
+.gallery-item {
+  width: calc((100% - 48px) / 3);
+  transition: transform 420ms;
+}
+
+.gallery-item:hover {
+  transform: scale(1.025);
+}
+
+.gallery-image {
+  display: block;
+  max-width: 100%;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.simple-lightbox {
+  font-family: Montserrat, sanf-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
